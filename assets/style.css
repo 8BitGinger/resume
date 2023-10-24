@@ -65,6 +65,17 @@ main {
     align-content: center;
 }
 
+h1 {
+    background-color: rgba(9, 39, 137, 0.629);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    width: fit-content;
+    justify-content: center;
+}
+
 h2 {
     color: navy;
     background-color: rgba(240, 248, 255, 0.6);
@@ -234,4 +245,17 @@ img:hover {
     scale: 1.1;
     color: navy;
     transition: 0.3s;
+}
+
+.jumbotron h2 {
+    background-color: transparent;
+    font-family: 'space grotesk';
+    color: aliceblue;
+    font-size: 40px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+@media screen {
+    
 }
