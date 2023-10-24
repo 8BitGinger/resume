@@ -22,6 +22,10 @@ section {
     width: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -58,7 +62,7 @@ main {
     justify-content: center;
     margin: 0;
     text-align: center;
-    
+    align-content: center;
 }
 
 h2 {
@@ -68,9 +72,27 @@ h2 {
     font-size: xx-large;
     margin: 0;
     margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .skills {
+    background-color: dodgerblue;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 500px;
+    height: 500px;
+   
+}
+
+.skill-long {
     background-color: dodgerblue;
     margin: auto;
     justify-content: center;
@@ -79,18 +101,8 @@ h2 {
     padding: 15px;
     border-radius: 25px;
     border: 2px solid white;
-    width: 25%;
-    height: fit-content;
-   
-}
-
-.skill-long {
-
-    margin: 25px;
-    padding: 15px;
-    border-radius: 25px;
-    border: 2px solid white;
     width: fit-content;
+    height: fit-content;
    
 
 }
@@ -125,7 +137,7 @@ ul {
 
 li {
     padding: 8px;
-    background-color: rgba(0, 115, 255, 0.633);
+    background-color: rgba(0, 98, 255, 0.633);
     border-radius: 12px;
     margin: 5px;
     width: 90%;
@@ -148,9 +160,9 @@ ol {
     width: 90%;
 }
 
-.skills {
-    font-size: small;
-}
+
+
+
 
 .timeline {
     width: 30%;
@@ -174,6 +186,10 @@ img:hover {
 }
 
 .adj {
+    display: flex;
     margin: 0;
     padding: 0;
+    justify-content: center;
+    align-items: center;
+  
 }
