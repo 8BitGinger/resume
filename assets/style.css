@@ -203,7 +203,7 @@ img:hover {
     scale: 1.1;
     transition: .5s;
     filter: none;
-    margin: 50px;
+   
 }
 
 .footer {
@@ -256,6 +256,14 @@ img:hover {
     margin-top: 0;
 }
 
-@media screen {
+.headshot {
+    filter: grayscale(20%) opacity(90%);
+    width: 100%;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen{
     
 }
