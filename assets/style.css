@@ -13,7 +13,7 @@ body {
 header {
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 0;
     flex-direction: column;
     width: 100%;
 }
@@ -196,7 +196,7 @@ img:hover {
 }
 
 .footer {
-    width: 100%;
+    
 }
 
 .adj {
@@ -206,4 +206,32 @@ img:hover {
     justify-content: center;
     align-items: center;
   
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    font-size: 50px;
+   
+    
+}
+
+.fa-solid {
+    font-size: 75px;
+}
+
+.contact a {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.contact a:hover {
+    scale: 1.1;
+    color: navy;
+    transition: 0.3s;
 }
