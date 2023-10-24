@@ -100,7 +100,7 @@ h2 {
     border: 2px solid white;
     width: 400px;
     height: 400px;
-    margin-top: 50px;
+    margin-top: 20px;
    
 }
 
@@ -178,7 +178,7 @@ ol {
 }
 
 .skill-long li {
-    font-size: larger;
+    font-size: large;
 }
 
 
@@ -222,6 +222,7 @@ img:hover {
 .row {
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
 }
 
 .contact {
