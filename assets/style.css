@@ -87,8 +87,9 @@ h2 {
     padding: 15px;
     border-radius: 50%;
     border: 2px solid white;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
    
 }
 
@@ -103,7 +104,8 @@ h2 {
     border: 2px solid white;
     width: fit-content;
     height: fit-content;
-   
+   margin-top: 75px;
+   margin-right: 25px;
 
 }
 
@@ -153,20 +155,28 @@ ol:hover {
 ol {
     text-align: center;
     color: aliceblue;
-    font-size: medium;
+    font-size: large;
     font-family: 'dosis';
     padding: 3px;
     border-radius: 10px;
     width: 90%;
 }
 
+.skills li {
+    font-size: small;
+}
 
+.skill-long li {
+    font-size: larger;
+}
 
 
 
 .timeline {
-    width: 30%;
-    margin: 25px;
+    width: min-content;
+    margin-top: 50px;
+    align-items: baseline;
+
     
 }
 
@@ -174,11 +184,15 @@ img {
     max-width: 550px;
     border-radius: 25px;
     border: 2px solid white;
+    filter: opacity(50%);
+    margin: 25px;
 }
 
 img:hover {
     scale: 1.1;
-    transition: 1s;;
+    transition: .5s;
+    filter: none;
+    margin: 50px;
 }
 
 .footer {
