@@ -265,6 +265,25 @@ img:hover {
     padding: 0;
 }
 
+.profile-container {
+    width: 100%;
+}
+
+.profile {
+    font-size: x-large;
+    font-family: 'dosis';
+    text-decoration: none;
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.profile:hover {
+    font-size: xx-large;
+    transition: ease-in 0.3s;
+}
+
 @media screen{
     
 }
