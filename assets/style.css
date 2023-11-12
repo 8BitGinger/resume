@@ -26,6 +26,7 @@ section {
     text-align: center;
     justify-content: center;
     align-items: center;
+   
 }
 
 main {
@@ -63,6 +64,9 @@ main {
     margin: 0;
     text-align: center;
     align-content: center;
+    scale: .8;
+    margin-top: -150px;
+    margin-bottom: 0;
 }
 
 h1 {
@@ -243,7 +247,7 @@ img:hover {
 }
 
 .contact a:hover {
-    scale: 1.1;
+    scale: 1.05;
     color: navy;
     transition: 0.3s;
 }
@@ -267,6 +271,8 @@ img:hover {
 
 .profile-container {
     width: 100%;
+    margin-top: -100px;
+
 }
 
 .profile {
@@ -281,9 +287,9 @@ img:hover {
 
 .profile:hover {
     font-size: xx-large;
-    transition: ease-in 0.3s;
+    transition: ease-in 0.5s;
 }
 
-@media screen{
+@media screen {
     
 }
