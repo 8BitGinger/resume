@@ -64,8 +64,8 @@ main {
     margin: 0;
     text-align: center;
     align-content: center;
-    scale: .8;
-    margin-top: -150px;
+    
+    
     margin-bottom: 0;
 }
 
@@ -102,8 +102,8 @@ h2 {
     padding: 15px;
     border-radius: 50%;
     border: 2px solid white;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin-top: 20px;
    
 }
@@ -119,18 +119,19 @@ h2 {
     border: 2px solid white;
     width: fit-content;
     height: fit-content;
-   margin-top: 75px;
+    margin-top: -140px;
    margin-right: 25px;
-
+    scale: .70;
 }
 
 .list {
-    padding: 30px;
+    padding: 10px;
     text-align: left;
     list-style-type: none;
     color: white;
     font-size: larger;
     font-family: 'mooli';
+    width: 60%;
 }
 
 
@@ -195,8 +196,10 @@ ol {
     
 }
 
+
+
 img {
-    max-width: 550px;
+    max-width: 350px;
     border-radius: 25px;
     border: 2px solid white;
     filter: opacity(50%);
@@ -209,6 +212,8 @@ img:hover {
     filter: none;
    
 }
+
+
 
 .footer {
     
@@ -223,20 +228,26 @@ img:hover {
   
 }
 
+
+
 .row {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+    
 }
 
 .contact {
-    font-size: 50px;
-   
+    font-size: 30px;
+    width: 300px;
+    height: 300px;
     
 }
 
 .fa-solid {
-    font-size: 75px;
+    font-size: 55px;
+    margin: 10x;
+    margin-right: 20px;
 }
 
 .contact a {
@@ -259,6 +270,11 @@ img:hover {
     font-size: 40px;
     padding-top: 0;
     margin-top: 0;
+}
+
+.adj h2 {
+    width: 30%;
+    font-size: large;
 }
 
 .headshot {
